@@ -5,6 +5,7 @@
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"spr_wall","order":12,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_player_test","order":13,"path":"sprites/spr_player_test/spr_player_test.yy",},
+    {"name":"spr_mathewmatikstest","order":27,"path":"sprites/spr_mathewmatikstest/spr_mathewmatikstest.yy",},
     {"name":"spr_destroy","order":8,"path":"sprites/spr_destroy/spr_destroy.yy",},
     {"name":"obj_body","order":13,"path":"objects/obj_body/obj_body.yy",},
     {"name":"spr_floor","order":1,"path":"sprites/spr_floor/spr_floor.yy",},

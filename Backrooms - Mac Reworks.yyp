@@ -38,6 +38,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_player_test","path":"sprites/spr_player_test/spr_player_test.yy",},},
+    {"id":{"name":"spr_mathewmatikstest","path":"sprites/spr_mathewmatikstest/spr_mathewmatikstest.yy",},},
     {"id":{"name":"spr_buddy_idle","path":"sprites/spr_buddy_idle/spr_buddy_idle.yy",},},
     {"id":{"name":"spr_destroy","path":"sprites/spr_destroy/spr_destroy.yy",},},
     {"id":{"name":"obj_body","path":"objects/obj_body/obj_body.yy",},},
