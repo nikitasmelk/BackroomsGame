@@ -1,0 +1,1 @@
+instance_destroy(personal_guide); // destroy guide object when hanif
