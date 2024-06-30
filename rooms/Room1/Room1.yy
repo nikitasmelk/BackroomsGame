@@ -42,7 +42,7 @@
         {"name":"g_DistortTexture","type":2,"value":"_filter_distort_smoothnoise",},
       ],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMREffectLayer","resourceVersion":"1.0","name":"blur","depth":600,"effectEnabled":true,"effectType":"_filter_linear_blur","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
-        {"name":"g_LinearBlurVector","type":0,"value":"10",},
+        {"name":"g_LinearBlurVector","type":0,"value":"1",},
         {"name":"g_LinearBlurVector","type":0,"value":"0",},
         {"name":"g_NoiseTexture","type":2,"value":"_filter_linear_blur_noise",},
       ],"userdefinedDepth":false,"visible":true,},
