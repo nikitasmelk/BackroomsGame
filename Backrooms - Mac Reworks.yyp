@@ -69,6 +69,7 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"obj_item_test","path":"objects/obj_item_test/obj_item_test.yy",},},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},},
+    {"id":{"name":"sp_mathewmatiks_test_02","path":"sprites/sp_mathewmatiks_test_02/sp_mathewmatiks_test_02.yy",},},
     {"id":{"name":"spr_cursor_default","path":"sprites/spr_cursor_default/spr_cursor_default.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
