@@ -1,6 +1,10 @@
 global.spd = 4;
 global.counter = 0;
 
+// Initialize the timer variable
+global.elapsed_time = 60;
+
+
 randomize(); // randomize seed for random numbers
 
 window_set_fullscreen(true);
