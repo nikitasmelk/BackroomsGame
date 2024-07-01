@@ -34,6 +34,7 @@
     {"name":"obj_game","order":2,"path":"objects/obj_game/obj_game.yy",},
     {"name":"obj_item_test","order":12,"path":"objects/obj_item_test/obj_item_test.yy",},
     {"name":"spr_bg","order":9,"path":"sprites/spr_bg/spr_bg.yy",},
+    {"name":"sp_mathewmatiks_test_02","order":28,"path":"sprites/sp_mathewmatiks_test_02/sp_mathewmatiks_test_02.yy",},
     {"name":"spr_cursor_default","order":26,"path":"sprites/spr_cursor_default/spr_cursor_default.yy",},
     {"name":"spr_player_idle","order":14,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"Sprite16","order":19,"path":"sprites/Sprite16/Sprite16.yy",},
