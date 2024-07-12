@@ -8,7 +8,7 @@ if (mouse_check_button(mb_left)) {
 if(obj_player.player_is_idle){
 	sprite_index = spr_buddy_idle;
 } else {
-	sprite_index = spr_buddy;
+	sprite_index = current_sprite;
 }
 
 
@@ -38,6 +38,29 @@ if (distance < threshold) {
 		motion_add(runaway_dir, random_speed);
 	}
 }
+
+if (distance < 50){
+	current_sprite = spr_buddy_idle;
+	
+	if(mouse_check_button_released(2)){
+	
+	////create left-over
+	//instance_create_layer(x,y, "Instances", obj_body);
+	instance_create_layer(x,y, "Instances", obj_path_explorer);
+
+	//do smthing to the player
+	obj_player.player_speed *= 2;
+	obj_player.tyapka = 0
+	global.counter += 1;
+	global.elapsed_time +=  20;
+	instance_create_layer(global.counter*5, 10, "Items", obj_counter);
+
+	//destory self
+	instance_destroy(self);
+	}
+}  else {
+	current_sprite = spr_buddy;
+};
 
 
 
