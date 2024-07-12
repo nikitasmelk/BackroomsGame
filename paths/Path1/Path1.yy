@@ -1,14 +1,14 @@
 {
-  "resourceType": "GMPath",
-  "resourceVersion": "1.0",
-  "name": "Path1",
-  "closed": true,
-  "kind": 1,
-  "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+  "$GMPath":"",
+  "%Name":"Path1",
+  "closed":true,
+  "kind":1,
+  "name":"Path1",
+  "parent":{
+    "name":"Fonts",
+    "path":"folders/Fonts.yy",
   },
-  "points": [
+  "points":[
     {"speed":100.0,"x":199.0,"y":220.0,},
     {"speed":100.0,"x":321.0,"y":118.0,},
     {"speed":100.0,"x":383.0,"y":188.0,},
@@ -33,5 +33,7 @@
     {"speed":100.0,"x":422.0,"y":113.0,},
     {"speed":100.0,"x":265.0,"y":77.0,},
   ],
-  "precision": 4,
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
 }
