@@ -53,7 +53,7 @@ if (distance < 50){
 	obj_player.tyapka = 0
 	global.counter += 1;
 	global.elapsed_time +=  20;
-	instance_create_layer(global.counter*5, 10, "Items", obj_counter);
+	//instance_create_layer(global.counter*5, 10, "Items", obj_counter);
 
 	//destory self
 	instance_destroy(self);
