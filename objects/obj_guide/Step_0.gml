@@ -25,7 +25,7 @@ image_angle = point_direction(x, y, obj_player.x, obj_player.y) + 90;
 
 // 250/distance
 
-scale = 400 / point_distance(obj_player.x, obj_player.y, parent_id.x, parent_id.y);
+scale = 300 / point_distance(obj_player.x, obj_player.y, parent_id.x, parent_id.y);
 if(scale < 0.6) { scale = 0.6};
 image_xscale = scale + random_range(0, 0.1); // 2000 // 150
 image_yscale = scale + random_range(0, 0.1); // 2000 // 150

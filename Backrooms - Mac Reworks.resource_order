@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [
-    {"name":"sound_effects","order":1,"path":"folders/Sounds/sound_effects.yy",},
     {"name":"music","order":2,"path":"folders/Sounds/music.yy",},
+    {"name":"sound_effects","order":1,"path":"folders/Sounds/sound_effects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_left_detect","order":4,"path":"objects/obj_left_detect/obj_left_detect.yy",},
