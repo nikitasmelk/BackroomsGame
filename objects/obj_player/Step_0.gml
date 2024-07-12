@@ -70,7 +70,8 @@ fx_set_parameter(global._fx_timer, "g_Magnitude", tyapka);
 
 if (distance_to_object(obj_interactive) <= 40){
 	sprite_index = spr_player_idle;
-	cursor_sprite = spr_cursor_idle;
+	cursor_sprite = spr_cursor_idle_bigger;
+	
 } else if (!player_is_idle){
 	sprite_index = spr_player_test;
 	cursor_sprite = spr_cursor_default;

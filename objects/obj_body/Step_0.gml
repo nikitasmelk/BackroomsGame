@@ -51,7 +51,6 @@ if (distance < 50){
 	//do smthing to the player
 	obj_player.player_speed *= 2;
 	obj_player.tyapka = 0
-	global.counter += 1;
 	global.elapsed_time +=  20;
 	//instance_create_layer(global.counter*5, 10, "Items", obj_counter);
 

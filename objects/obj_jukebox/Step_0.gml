@@ -20,7 +20,12 @@ if(distance_to_object(obj_player) <= 50){
 
 	//destory self
 	//instance_destroy(self);
-	removeObjective(obj_jukebox);
+	if(findIndexInArray(global.objectives, obj_jukebox) != -1){
+		removeObjective(obj_jukebox);
+		global.counter += 1;
+	}
+
+
 	//audio_play_sound(snd_jukebox_interact, 1, false);
 	
 		if(audio_is_playing(snd_backgroundBuzz)){

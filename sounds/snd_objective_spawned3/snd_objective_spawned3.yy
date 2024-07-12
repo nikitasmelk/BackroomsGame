@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_jukebox_interact",
+  "name": "snd_objective_spawned3",
   "audioGroupId": {
     "name": "sound_effects",
     "path": "audiogroups/sound_effects",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 5512,
-  "soundFile": "snd_jukebox_interact.mp3",
+  "soundFile": "snd_objective_spawned3.mp3",
   "type": 1,
   "volume": 0.56,
 }
