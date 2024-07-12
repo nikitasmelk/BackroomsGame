@@ -43,6 +43,7 @@
     {"name":"obj_item_test","order":12,"path":"objects/obj_item_test/obj_item_test.yy",},
     {"name":"spr_guide_green","order":29,"path":"sprites/spr_guide_green/spr_guide_green.yy",},
     {"name":"spr_bg","order":9,"path":"sprites/spr_bg/spr_bg.yy",},
+    {"name":"snd_jukebox_interact","order":1,"path":"sounds/snd_jukebox_interact/snd_jukebox_interact.yy",},
     {"name":"sp_mathewmatiks_test_02","order":28,"path":"sprites/sp_mathewmatiks_test_02/sp_mathewmatiks_test_02.yy",},
     {"name":"spr_cursor_default","order":26,"path":"sprites/spr_cursor_default/spr_cursor_default.yy",},
     {"name":"spr_player_idle","order":14,"path":"sprites/spr_player_idle/spr_player_idle.yy",},

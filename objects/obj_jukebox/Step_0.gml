@@ -21,11 +21,13 @@ if(distance_to_object(obj_player) <= 50){
 	//destory self
 	//instance_destroy(self);
 	removeObjective(obj_jukebox);
+	//audio_play_sound(snd_jukebox_interact, 1, false);
 	
-	//if(audio_is_playing(obj_sound.background_buzz)){
-		//audio_sound_gain(global.background_buzz, 0, 0);
-		audio_stop_sound(global.background_buzz);
-	//}
+		if(audio_is_playing(snd_backgroundBuzz)){
+			audio_stop_sound(snd_backgroundBuzz);
+		}else {
+			audio_play_sound(snd_backgroundBuzz, 1, true);
+		}
 	
 	}
 } else {
