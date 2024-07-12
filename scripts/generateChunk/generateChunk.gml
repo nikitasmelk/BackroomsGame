@@ -2,6 +2,24 @@ function generateChunk(x_start, y_start, room_array){ // generate chunk with a r
 	
 	instance_create_layer(x_start, y_start, "Floor", obj_floor);
 	instance_create_layer(x_start + irandom_range(0,960), y_start + irandom_range(0,960), "Items", obj_item_test);
+	
+	//check if objectives exist
+	if(array_length_1d(global.objectives) > 0){
+		
+	//20% chance to spawn an interactive objective
+	if (irandom(10) < 2){
+		
+		//select random objective
+		objective_id = irandom(array_length_1d(global.objectives)-1);
+
+		//if it already exists -- DONT SPAWN IT
+		if(!instance_exists(global.objectives[objective_id])){
+			instance_create_layer(x_start + irandom_range(0,960), y_start + irandom_range(0,960), "Items", global.objectives[objective_id]);
+		}
+		
+	}
+	}
+	
 	random_num = irandom_range(0,3);
 	
 	for (var i=0; i<array_length_1d(room_array) ;i++) {

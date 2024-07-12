@@ -17,4 +17,8 @@ draw_text(10 + irandom_range(-1, 1), 40  + irandom_range(-1, 1), seconds);
 }
 
 
+draw_text(100, 100, instance_exists(obj_jukebox));
+
+
+
 

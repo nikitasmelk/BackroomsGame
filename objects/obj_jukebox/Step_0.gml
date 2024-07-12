@@ -20,6 +20,13 @@ if(distance_to_object(obj_player) <= 50){
 
 	//destory self
 	//instance_destroy(self);
+	removeObjective(obj_jukebox);
+	
+	//if(audio_is_playing(obj_sound.background_buzz)){
+		//audio_sound_gain(global.background_buzz, 0, 0);
+		audio_stop_sound(global.background_buzz);
+	//}
+	
 	}
 } else {
 	current_sprite = base_sprite;

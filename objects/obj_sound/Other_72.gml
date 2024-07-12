@@ -1,1 +1,1 @@
-var background_buzz = audio_play_sound(snd_backgroundBuzz, 1, false);
+global.background_buzz = audio_play_sound(snd_backgroundBuzz, 1, false);

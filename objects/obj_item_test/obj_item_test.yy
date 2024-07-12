@@ -16,8 +16,8 @@
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "obj_destroyed",
-    "path": "objects/obj_destroyed/obj_destroyed.yy",
+    "name": "obj_interactive",
+    "path": "objects/obj_interactive/obj_interactive.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

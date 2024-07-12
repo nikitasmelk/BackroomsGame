@@ -4,6 +4,8 @@ global.counter = 0;
 // Initialize the timer variable
 global.elapsed_time = 60;
 
+global.objectives = [obj_jukebox];
+
 
 randomize(); // randomize seed for random numbers
 
