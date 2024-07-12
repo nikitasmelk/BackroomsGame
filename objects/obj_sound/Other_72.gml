@@ -1,4 +1,1 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
+var background_buzz = audio_play_sound(snd_backgroundBuzz, 1, false);

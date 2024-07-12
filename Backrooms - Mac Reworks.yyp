@@ -4,6 +4,8 @@
   "name": "Backrooms - Mac Reworks",
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"music","targets":-1,},
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"sound_effects","targets":-1,},
   ],
   "configs": {
     "children": [],
@@ -26,6 +28,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sound_effects","folderPath":"folders/Sounds/sound_effects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"music","folderPath":"folders/Sounds/music.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -40,6 +44,7 @@
     {"id":{"name":"spr_player_test","path":"sprites/spr_player_test/spr_player_test.yy",},},
     {"id":{"name":"spr_mathewmatikstest","path":"sprites/spr_mathewmatikstest/spr_mathewmatikstest.yy",},},
     {"id":{"name":"spr_buddy_idle","path":"sprites/spr_buddy_idle/spr_buddy_idle.yy",},},
+    {"id":{"name":"snd_backgroundBuzz","path":"sounds/snd_backgroundBuzz/snd_backgroundBuzz.yy",},},
     {"id":{"name":"spr_destroy","path":"sprites/spr_destroy/spr_destroy.yy",},},
     {"id":{"name":"obj_body","path":"objects/obj_body/obj_body.yy",},},
     {"id":{"name":"obj_path_explorer","path":"objects/obj_path_explorer/obj_path_explorer.yy",},},
@@ -49,6 +54,7 @@
     {"id":{"name":"obj_top_detect","path":"objects/obj_top_detect/obj_top_detect.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
     {"id":{"name":"spr_vertical_detection","path":"sprites/spr_vertical_detection/spr_vertical_detection.yy",},},
+    {"id":{"name":"obj_sound","path":"objects/obj_sound/obj_sound.yy",},},
     {"id":{"name":"spr_item_idle","path":"sprites/spr_item_idle/spr_item_idle.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_counter","path":"objects/obj_counter/obj_counter.yy",},},

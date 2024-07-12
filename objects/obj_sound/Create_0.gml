@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+// LOAD SOUND FILES
+audio_group_load(music);
 

@@ -1,5 +1,8 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"sound_effects","order":1,"path":"folders/Sounds/sound_effects.yy",},
+    {"name":"music","order":2,"path":"folders/Sounds/music.yy",},
+  ],
   "ResourceOrderSettings": [
     {"name":"obj_left_detect","order":4,"path":"objects/obj_left_detect/obj_left_detect.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
@@ -14,6 +17,7 @@
     {"name":"obj_top_detect","order":6,"path":"objects/obj_top_detect/obj_top_detect.yy",},
     {"name":"Sprite14","order":17,"path":"sprites/Sprite14/Sprite14.yy",},
     {"name":"spr_vertical_detection","order":5,"path":"sprites/spr_vertical_detection/spr_vertical_detection.yy",},
+    {"name":"obj_sound","order":17,"path":"objects/obj_sound/obj_sound.yy",},
     {"name":"spr_item_idle","order":21,"path":"sprites/spr_item_idle/spr_item_idle.yy",},
     {"name":"obj_floor","order":3,"path":"objects/obj_floor/obj_floor.yy",},
     {"name":"obj_counter","order":15,"path":"objects/obj_counter/obj_counter.yy",},
