@@ -84,6 +84,7 @@
     {"id":{"name":"removeObjective","path":"scripts/removeObjective/removeObjective.yy",},},
     {"id":{"name":"obj_item_test","path":"objects/obj_item_test/obj_item_test.yy",},},
     {"id":{"name":"spr_guide_green","path":"sprites/spr_guide_green/spr_guide_green.yy",},},
+    {"id":{"name":"spr_bloodsplatter","path":"sprites/spr_bloodsplatter/spr_bloodsplatter.yy",},},
     {"id":{"name":"AnimationCurve1","path":"animcurves/AnimationCurve1/AnimationCurve1.yy",},},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},},
     {"id":{"name":"snd_objective_spawned3","path":"sounds/snd_objective_spawned3/snd_objective_spawned3.yy",},},
