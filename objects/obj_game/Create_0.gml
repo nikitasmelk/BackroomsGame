@@ -2,7 +2,7 @@ global.spd = 4;
 global.counter = 0;
 
 // Initialize the timer variable
-global.elapsed_time = 60;
+global.elapsed_time = 6000;
 
 global.objectives = [obj_jukebox];
 

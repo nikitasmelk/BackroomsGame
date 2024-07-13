@@ -13,3 +13,9 @@ base_sprite = current_sprite;
 idle_sprite = spr_jukebox;
 
 image_speed = 0;
+
+max_distance = 600; 
+min_distance = 50;
+volume = 0;
+
+audio_play_sound(snd_NAR, 1, true);

@@ -12,8 +12,10 @@ if(obj_player.player_is_idle){
 	sprite_index = current_sprite;
 };
 
+distance = distance_to_object(obj_player);
+
 // player proximity 
-if(distance_to_object(obj_player) <= 50){
+if(distance <= 50){
 	current_sprite = idle_sprite;
 	
 	if(mouse_check_button_released(2)){
@@ -30,10 +32,10 @@ if(distance_to_object(obj_player) <= 50){
 
 	//audio_play_sound(snd_jukebox_interact, 1, false);
 	
-		if(audio_is_playing(snd_backgroundBuzz)){
-			audio_stop_sound(snd_backgroundBuzz);
-		}else {
-			audio_play_sound(snd_backgroundBuzz, 1, true);
+		if(audio_is_playing(snd_NAR)){
+			audio_pause_sound(snd_NAR);
+		}else if(audio_is_paused(snd_NAR)) {
+			audio_resume_sound(snd_NAR);
 		}
 	
 	}
@@ -44,3 +46,14 @@ if(distance_to_object(obj_player) <= 50){
 if(image_index == 4){
 	image_speed = 0;
 } 
+
+
+if (distance <= min_distance) {
+    volume = 0.7; // Full volume
+} else if (distance >= max_distance) {
+    volume = 0.02; // Minimum volume
+} else {
+    volume = 1 - ((distance - min_distance) / (max_distance - min_distance));
+}
+
+audio_sound_gain(snd_NAR, volume, 0); // Adjust gain instantly
