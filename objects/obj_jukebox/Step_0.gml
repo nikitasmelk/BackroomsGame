@@ -24,7 +24,9 @@ if(distance_to_object(obj_player) <= 50){
 		removeObjective(obj_jukebox);
 		global.counter += 1;
 	}
-
+	
+	image_speed = 1;
+	image_index = 1;
 
 	//audio_play_sound(snd_jukebox_interact, 1, false);
 	
@@ -38,3 +40,7 @@ if(distance_to_object(obj_player) <= 50){
 } else {
 	current_sprite = base_sprite;
 };
+
+if(image_index == 4){
+	image_speed = 0;
+} 

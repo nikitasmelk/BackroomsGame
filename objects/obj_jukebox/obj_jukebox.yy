@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_mathewmatikstest",
-    "path": "sprites/spr_mathewmatikstest/spr_mathewmatikstest.yy",
+    "name": "spr_jukebox",
+    "path": "sprites/spr_jukebox/spr_jukebox.yy",
   },
   "spriteMaskId": null,
   "visible": true,

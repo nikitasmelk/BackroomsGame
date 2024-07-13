@@ -16,6 +16,7 @@
     {"name":"obj_jukebox","order":18,"path":"objects/obj_jukebox/obj_jukebox.yy",},
     {"name":"obj_path_explorer","order":16,"path":"objects/obj_path_explorer/obj_path_explorer.yy",},
     {"name":"spr_floor","order":1,"path":"sprites/spr_floor/spr_floor.yy",},
+    {"name":"snd_NAR","order":1,"path":"sounds/snd_NAR/snd_NAR.yy",},
     {"name":"Path1","order":2,"path":"paths/Path1/Path1.yy",},
     {"name":"obj_top_detect","order":6,"path":"objects/obj_top_detect/obj_top_detect.yy",},
     {"name":"spr_guide_red","order":17,"path":"sprites/spr_guide_red/spr_guide_red.yy",},

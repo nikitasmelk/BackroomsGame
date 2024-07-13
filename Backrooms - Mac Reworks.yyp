@@ -53,6 +53,7 @@
     {"id":{"name":"obj_path_explorer","path":"objects/obj_path_explorer/obj_path_explorer.yy",},},
     {"id":{"name":"obj_bot_detect","path":"objects/obj_bot_detect/obj_bot_detect.yy",},},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},},
+    {"id":{"name":"snd_NAR","path":"sounds/snd_NAR/snd_NAR.yy",},},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"obj_top_detect","path":"objects/obj_top_detect/obj_top_detect.yy",},},
     {"id":{"name":"spr_guide_red","path":"sprites/spr_guide_red/spr_guide_red.yy",},},
