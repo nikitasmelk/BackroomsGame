@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings": [
+    {"name":"Particle Systems","order":2,"path":"folders/Particle Systems.yy",},
     {"name":"music","order":2,"path":"folders/Sounds/music.yy",},
     {"name":"sound_effects","order":1,"path":"folders/Sounds/sound_effects.yy",},
-    {"name":"Particle Systems","order":2,"path":"folders/Particle Systems.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_left_detect","order":4,"path":"objects/obj_left_detect/obj_left_detect.yy",},
@@ -35,6 +35,7 @@
     {"name":"obj_destroy","order":1,"path":"objects/obj_destroy/obj_destroy.yy",},
     {"name":"obj_distance_tracker","order":3,"path":"objects/obj_distance_tracker/obj_distance_tracker.yy",},
     {"name":"Font2","order":1,"path":"fonts/Font2/Font2.yy",},
+    {"name":"LOGO","order":33,"path":"sprites/LOGO/LOGO.yy",},
     {"name":"spr_logo","order":24,"path":"sprites/spr_logo/spr_logo.yy",},
     {"name":"spr_guide","order":16,"path":"sprites/spr_guide/spr_guide.yy",},
     {"name":"spr_cursor_idle","order":11,"path":"sprites/spr_cursor_idle/spr_cursor_idle.yy",},
@@ -47,7 +48,9 @@
     {"name":"obj_item_test","order":12,"path":"objects/obj_item_test/obj_item_test.yy",},
     {"name":"spr_guide_green","order":29,"path":"sprites/spr_guide_green/spr_guide_green.yy",},
     {"name":"spr_bloodsplatter","order":32,"path":"sprites/spr_bloodsplatter/spr_bloodsplatter.yy",},
+    {"name":"gameOver","order":3,"path":"scripts/gameOver/gameOver.yy",},
     {"name":"spr_bg","order":9,"path":"sprites/spr_bg/spr_bg.yy",},
+    {"name":"spr_player_death","order":35,"path":"sprites/spr_player_death/spr_player_death.yy",},
     {"name":"snd_objective_spawned3","order":1,"path":"sounds/snd_objective_spawned3/snd_objective_spawned3.yy",},
     {"name":"sp_mathewmatiks_test_02","order":28,"path":"sprites/sp_mathewmatiks_test_02/sp_mathewmatiks_test_02.yy",},
     {"name":"spr_cursor_default","order":26,"path":"sprites/spr_cursor_default/spr_cursor_default.yy",},

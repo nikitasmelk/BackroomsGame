@@ -12,3 +12,4 @@ min_speed = 3;
 idle_cooldown = 500;
 player_is_idle = false;
 tyapka = 0
+isDead = false;

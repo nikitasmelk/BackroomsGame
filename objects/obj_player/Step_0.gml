@@ -4,6 +4,8 @@
 //    speed = 0;
 //};
 
+if(!isDead){
+
 global.dir = point_direction(x, y, mouse_x, mouse_y);
 
 // CHECK FOR COLLISION WITH WALLS AND STOP MOVING
@@ -55,11 +57,6 @@ if(idle_cooldown <= 0){
 	player_is_idle = true;
 }
 
-//QUIT GAME
-if (keyboard_check_pressed(ord("Q"))){
-	game_end();
-}
-
 // Make sure player is not exceeding maximas
 if(player_speed > max_speed){ player_speed = max_speed;}
 if(player_speed < min_speed){ player_speed = min_speed;}
@@ -75,4 +72,8 @@ if (distance_to_object(obj_interactive) <= 40){
 } else if (!player_is_idle){
 	sprite_index = spr_player_test;
 	cursor_sprite = spr_cursor_default;
+}
+} else {
+	image_speed = 1;
+	sprite_index = spr_player_death;
 }

@@ -1,5 +1,6 @@
 // Kill tracker lines draw 
 if(obj_player.player_is_idle){
+	draw_set_alpha(1);
 	//draw_set_color(c_green);
 	draw_set_color(c_red);
 for (var i=1; i<global.counter+1 ;i++) {
@@ -18,6 +19,16 @@ var seconds = string_format(global.elapsed_time, 0, 2); // Format to 2 decimal p
 // Draw the text at the desired position (e.g., top-left corner)
 draw_text(10 + irandom_range(-1, 1), 40  + irandom_range(-1, 1), seconds);
 
+}else if(global.elapsed_time <= 20){
+	
+// Format the elapsed time to display seconds
+var seconds = string_format(global.elapsed_time, 0, 2); // Format to 2 decimal places
+var opacity = 1 - ((global.elapsed_time + 0.001) / 20);
+draw_set_alpha(opacity);
+
+// Draw the text at the desired position (e.g., top-left corner)
+draw_text(10 + irandom_range(-1, 1), 40  + irandom_range(-1, 1), seconds);
+draw_set_alpha(1);
 }
 
 
